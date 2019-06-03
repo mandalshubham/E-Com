@@ -15,7 +15,6 @@ This app uses VIPER architecture and Protocol Oriented Programming with Swift 5 
 **Entity** : Contains plain model classes used by the interactor.
 
 ###### Dependecy Manager : Cocoapods
-###### Pods for PhotosApp
-pod 'Alamofire', '~> 4.7.3'
-
-pod 'AlamofireObjectMapper', '~> 5.2'
+###### Pods for E-Com
+    pod 'Alamofire', '~> 4.7.3'
+    pod 'AlamofireObjectMapper', '~> 5.2'
