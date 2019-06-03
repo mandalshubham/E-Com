@@ -2,7 +2,7 @@
 //  CategoryListViewController.swift
 //  E-Com
 //
-//  Created by Khushboo Verma on 6/3/19.
+//  Created by Shubham Mandal on 6/3/19.
 //  Copyright © 2019 Shubham Mandal. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  CategoryListInteractor.swift
 //  E-Com
 //
-//  Created by Khushboo Verma on 6/3/19.
+//  Created by Shubham Mandal on 6/3/19.
 //  Copyright © 2019 Shubham Mandal. All rights reserved.
 //
 
@@ -16,7 +16,7 @@ class CategoryListInteractor: CategoryListInteractorInputProtocol {
         do {
             if let categoryList = try localDatamanager?.retrieveCategoryList() {
                 let categoryModelList = categoryList.map() {
-                    return CategoryModel(id: Int($0.id), name: $0.name!)
+                    return CategoryModel(id: Int($0.id), name: $0.name!, products: Array($0.products!) as! [ProductModel])
                 }
                 if  categoryModelList.isEmpty {
                     remoteDatamanager?.retrieveCategoryList()
@@ -41,7 +41,7 @@ extension CategoryListInteractor: CategoryListRemoteDataManagerOutputProtocol {
         
         for categoryModel in categories {
             do {
-                try localDatamanager?.saveCategory(id: categoryModel.id, name: categoryModel.name)
+                try localDatamanager?.saveCategory(id: categoryModel.id, name: categoryModel.name, products: categoryModel.products)
             } catch  {
                 
             }

@@ -1,5 +1,5 @@
 //
-//  Category+CoreDataClass.swift
+//  Product+CoreDataClass.swift
 //  E-Com
 //
 //  Created by Shubham Mandal on 6/3/19.
@@ -10,7 +10,7 @@
 import Foundation
 import CoreData
 
-@objc(Category)
-public class Category: NSManagedObject {
+@objc(Product)
+public class Product: NSManagedObject {
 
 }

@@ -18,6 +18,10 @@
 		321E096522A48DAC003206CB /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E096422A48DAC003206CB /* EndPoints.swift */; };
 		321E096F22A49055003206CB /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E096D22A49055003206CB /* Category+CoreDataClass.swift */; };
 		321E097022A49055003206CB /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E096E22A49055003206CB /* Category+CoreDataProperties.swift */; };
+		32C8B43F22A4D6CB0002023E /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B43B22A4D6CB0002023E /* Product+CoreDataClass.swift */; };
+		32C8B44022A4D6CB0002023E /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B43C22A4D6CB0002023E /* Product+CoreDataProperties.swift */; };
+		32C8B44122A4D6CB0002023E /* Variant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B43D22A4D6CB0002023E /* Variant+CoreDataClass.swift */; };
+		32C8B44222A4D6CB0002023E /* Variant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8B43E22A4D6CB0002023E /* Variant+CoreDataProperties.swift */; };
 		32F1E3FB22A495A7009487C3 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E3FA22A495A7009487C3 /* CategoryModel.swift */; };
 		32F1E3FD22A498A1009487C3 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E3FC22A498A1009487C3 /* CoreDataStore.swift */; };
 		32F1E40822A49D09009487C3 /* CategoryListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E40722A49D09009487C3 /* CategoryListProtocols.swift */; };
@@ -44,6 +48,10 @@
 		321E096422A48DAC003206CB /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		321E096D22A49055003206CB /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
 		321E096E22A49055003206CB /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32C8B43B22A4D6CB0002023E /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32C8B43C22A4D6CB0002023E /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32C8B43D22A4D6CB0002023E /* Variant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32C8B43E22A4D6CB0002023E /* Variant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variant+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		32F1E3FA22A495A7009487C3 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		32F1E3FC22A498A1009487C3 /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		32F1E40722A49D09009487C3 /* CategoryListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListProtocols.swift; sourceTree = "<group>"; };
@@ -118,6 +126,10 @@
 		321E096C22A4902D003206CB /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				32C8B43B22A4D6CB0002023E /* Product+CoreDataClass.swift */,
+				32C8B43C22A4D6CB0002023E /* Product+CoreDataProperties.swift */,
+				32C8B43D22A4D6CB0002023E /* Variant+CoreDataClass.swift */,
+				32C8B43E22A4D6CB0002023E /* Variant+CoreDataProperties.swift */,
 				321E096D22A49055003206CB /* Category+CoreDataClass.swift */,
 				321E096E22A49055003206CB /* Category+CoreDataProperties.swift */,
 				32F1E3FA22A495A7009487C3 /* CategoryModel.swift */,
@@ -339,16 +351,20 @@
 				32F1E41022A4A7C2009487C3 /* CategoryListPresenter.swift in Sources */,
 				32F1E3FD22A498A1009487C3 /* CoreDataStore.swift in Sources */,
 				32F1E40E22A4A53E009487C3 /* CategoryListInteractor.swift in Sources */,
+				32C8B44122A4D6CB0002023E /* Variant+CoreDataClass.swift in Sources */,
 				32F1E40A22A4A034009487C3 /* CategoryListLocalDataManager.swift in Sources */,
 				32F1E40822A49D09009487C3 /* CategoryListProtocols.swift in Sources */,
+				32C8B43F22A4D6CB0002023E /* Product+CoreDataClass.swift in Sources */,
 				32F1E41222A4AA50009487C3 /* CategoryListViewController.swift in Sources */,
 				321E097022A49055003206CB /* Category+CoreDataProperties.swift in Sources */,
 				321E096322A48D1F003206CB /* PersistenceError.swift in Sources */,
 				32F1E40C22A4A28A009487C3 /* CategoryListRemoteDataManager.swift in Sources */,
 				321E096F22A49055003206CB /* Category+CoreDataClass.swift in Sources */,
 				321E096522A48DAC003206CB /* EndPoints.swift in Sources */,
+				32C8B44222A4D6CB0002023E /* Variant+CoreDataProperties.swift in Sources */,
 				32F1E41422A4AA80009487C3 /* CategoryListCell.swift in Sources */,
 				321E095322A47BCC003206CB /* E_Com.xcdatamodeld in Sources */,
+				32C8B44022A4D6CB0002023E /* Product+CoreDataProperties.swift in Sources */,
 				32F1E3FB22A495A7009487C3 /* CategoryModel.swift in Sources */,
 				321E094D22A47BCC003206CB /* ViewController.swift in Sources */,
 				321E094B22A47BCC003206CB /* AppDelegate.swift in Sources */,

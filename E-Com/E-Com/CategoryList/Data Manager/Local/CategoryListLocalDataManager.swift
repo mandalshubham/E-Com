@@ -2,7 +2,7 @@
 //  CategoryListLocalDataManager.swift
 //  E-Com
 //
-//  Created by Khushboo Verma on 6/3/19.
+//  Created by Shubham Mandal on 6/3/19.
 //  Copyright © 2019 Shubham Mandal. All rights reserved.
 //
 
@@ -21,7 +21,7 @@ class CategoryListLocalDataManager: CategoryListLocalDataManagerInputProtocol {
         return try managedOC.fetch(request)
     }
     
-    func saveCategory(id: Int, name: String) throws {
+    func saveCategory(id: Int, name: String, products: [ProductModel]) throws {
         guard let managedOC = CoreDataStore.managedObjectContext else {
             throw PersistenceError.managedObjectContextNotFound
         }
