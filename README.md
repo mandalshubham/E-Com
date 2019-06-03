@@ -17,4 +17,5 @@ This app uses VIPER architecture and Protocol Oriented Programming with Swift 5 
 ###### Dependecy Manager : Cocoapods
 ###### Pods for PhotosApp
 pod 'Alamofire', '~> 4.7.3'
+
 pod 'AlamofireObjectMapper', '~> 5.2'
